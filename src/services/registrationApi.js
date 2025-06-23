@@ -14,7 +14,7 @@ export const registrationApi = {
         }
         
         // 模擬隨機的伺服器錯誤 (10% 機率)
-        if (Math.random() < 0.1) {
+        if (Math.random() < 0.9) {
           return reject({
             success: false,
             message: '伺服器發生未知錯誤，請稍後再試。',

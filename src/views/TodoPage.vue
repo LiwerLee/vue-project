@@ -45,7 +45,6 @@ const deleteTodo = (id) => {
 <template>
   <div class="todo-app">
     <h1>待辦事項</h1>
-    <p class="subtitle">一個簡單的 Vue 3 待辦事項應用程式</p>
     <TodoForm @add-todo="addTodo" />
     <TodoList :todos="todos" @delete-todo="deleteTodo" />
   </div>
