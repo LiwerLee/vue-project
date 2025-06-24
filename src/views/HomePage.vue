@@ -10,22 +10,21 @@ const navigateTo = (path) => {
 <template>
   <div class="home-container">
     <h2>Vue 3 專案實作</h2>
-    <p>請選擇一個項目以開始。</p>
     <div class="button-grid">
       <button @click="navigateTo('/todo')">
-        <h3>題目 1：待辦事項</h3>
+        <h3>練習 1：待辦事項</h3>
         <p>一個可新增、編輯、刪除的待辦事項列表。</p>
       </button>
       <button @click="navigateTo('/cart')">
-        <h3>題目 2：購物車</h3>
+        <h3>練習 2：購物車</h3>
         <p>一個模擬商品列表與購物車功能的應用。</p>
       </button>
       <button @click="navigateTo('/messages-login')">
-        <h3>題目 3：留言板</h3>
+        <h3>練習 3：留言板</h3>
         <p>需要先登入才能使用的留言板，串接模擬 API。</p>
       </button>
       <button @click="navigateTo('/register')">
-        <h3>題目 4：會員註冊</h3>
+        <h3>練習 4：會員註冊</h3>
         <p>具有完整前端驗證規則的註冊表單。</p>
       </button>
     </div>
